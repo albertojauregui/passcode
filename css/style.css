@@ -16,7 +16,8 @@ body {
 
 /*HEADER
   ------*/
-header h1 {color:#fff;font-family:'Oxygen', sans-serif;font-size:1.6em;text-align:center;text-shadow:0 0 2px #999;}
+header img {display:block;margin:10px auto 0;}
+header h1 {color:#fff;font-family:'Oxygen', sans-serif;font-size:1.6em;margin:0 0 10px;text-align:center;text-shadow:0 0 2px #999;}
 
 /*CONTENT
   -------*/

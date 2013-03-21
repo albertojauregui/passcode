@@ -1,2 +1,0 @@
-AddHandler cgi-script .pl
-Options +FollowSymLinks +ExecCGI

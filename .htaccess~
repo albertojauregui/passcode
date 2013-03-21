@@ -1,0 +1,11 @@
+AddHandler cgi-script .pl
+Options +FollowSymLinks +ExecCGI
+RewriteEngine On
+
+RewriteRule ^/timetracker/$ ./index.pl
+RewriteRule ^profile$ /timetracker/profile.pl
+RewriteRule ^account/change_password$ /timetracker/account.pl?action=change_password
+RewriteRule ^account/change_email_address$ /timetracker/account.pl?action=change_email
+RewriteRule ^todolist$ /timetracker/todolist.pl
+RewriteRule ^todolist\/new$ /timetracker/todolist_lists.pl?action=new
+RewriteRule ^todolist/lists/(\d+)*$ /timetracker/todolist_tasks.pl?id=$1 [L]

@@ -8,7 +8,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 /*GLOBAL
   ------*/
 body {
-    background: url('../img/fake_brick.png') repeat;
+    background-image: url('../img/fake_brick_@2X.png');
+    background-repeat: repeat;
     background-size: 76px 76px;
     font-size:62.5%;
 }
@@ -52,9 +53,3 @@ header h1 {color:#fff;font-family:'Oxygen', sans-serif;font-size:1.6em;text-alig
 /*FOOTER
   ------*/
 footer p, footer a {color:#999;font-family:'Oxygen', sans-serif;font-size:1em;margin:5px 0;text-align:center;text-shadow:0 0 1px #000;}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
-    body {
-	background: url('../img/fake_brick_@2x.png') repeat;
-    }
-}

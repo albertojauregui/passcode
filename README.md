@@ -1,4 +1,5 @@
-# PASSCODE GENERATOR
+PASSCODE GENERATOR
+==================
 
 # Table of Contents
 
